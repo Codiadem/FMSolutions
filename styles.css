@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: bisque;
+}
+
+.main{
+    width: 450px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+img{
+    width: 375px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+h1{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+.prep-time{
+    margin: 20px 5px;
+    padding: 10px 30px;
+    background-color: rgb(255,248,252);
+    border-radius: 7px;
+    box-shadow: 0px 0.1px 5px rgb(167, 166, 166);
+}
+.prep-time h4{
+    margin-bottom: 5px;
+}
+
+.making h3{
+    margin-bottom: 5px;
+    color: brown;
+}
+
+b{
+    color: brown;
+}
+
+li b{
+    color: rgba(86, 64, 64, 0.925);
+}
+
+.making ul,ol{
+    margin: 5px;
+    padding: 5px;
+}
+
+.nutrition p{
+    display: inline-block;
+}
+
+.nutrition hr{
+    width: 80%;
+}
+
+.fact{
+    text-align: left;
+    width: 50%;
+}
+
+.nutfact{
+    text-align: right;  
+    width: 25%;
+}
+.fact{
+    padding: 5px;
+}
